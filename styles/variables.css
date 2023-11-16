@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font:'IBM Plex mono', monospace;
+  --font-size: 1.125rem;
+  --weight-normal: 400;
+  --weight-bold: 700;
+  --line-height: 130%;
+  --bg-color: #000028;
+  --bg-img: url(../images/cover-image-dark.png);
+  --header__title-color: #DB00FF;
+  --section__title-color: #FF0070;
+  --section__subtitle-color: #000028;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --text-shadow: 2.5px 2px 0 var(--accent-color);
+}
