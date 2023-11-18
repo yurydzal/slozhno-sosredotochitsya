@@ -5,6 +5,8 @@
 
 :root {
   --main-font:'IBM Plex mono', monospace;
+  --title-font-size-s: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-font-size-m: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size: 1.125rem;
   --weight-normal: 400;
   --weight-bold: 700;
@@ -16,5 +18,6 @@
   --section__subtitle-color: #000028;
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
+  --button-hover: rgba(255, 0, 112, 0.40);
   --text-shadow: 2.5px 2px 0 var(--accent-color);
 }

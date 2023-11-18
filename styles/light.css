@@ -17,26 +17,31 @@
   --section__subtitle-color: #353430;
   --accent-color: #FF8DCB;
   --text-color: #353430;
+  --button-hover: rgba(50, 49, 45, 0.40);
   --text-shadow: 2.5px 2px 0 var(--accent-color);
-
-  .header.decorated-zone::before {
-    background: none;
-  }
 
 }
 
-.page.theme_light::before {
+.page.theme_light .header__rec {
   display: none;
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --bg-color: #FFF1F7;
     --bg-img: url(../images/cover-image-light.png);
     --header__title-color: #FFC2E6;
     --section__title-color: #353430;
+    --section__subtitle-color: #353430;
     --accent-color: #FF8DCB;
     --text-color: #353430;
+    --button-hover: rgba(50, 49, 45, 0.40);
     --text-shadow: 2.5px 2px 0 var(--accent-color);
     }
+
+  .page.theme_auto .header__rec {
+    display: none;
+  }
+
 }
