@@ -5,8 +5,7 @@
 
 :root {
   --main-font:'IBM Plex mono', monospace;
-  --title-font-size-s: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-font-size-m: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size: 1.125rem;
   --weight-normal: 400;
   --weight-bold: 700;
@@ -20,4 +19,13 @@
   --text-color: #F1B2CE;
   --button-hover: rgba(255, 0, 112, 0.40);
   --text-shadow: 2.5px 2px 0 var(--accent-color);
+  --flexible-gap: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+}
+
+@media (width >= 768px) {
+
+  :root {
+    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
 }

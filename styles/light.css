@@ -18,7 +18,6 @@
   --accent-color: #FF8DCB;
   --text-color: #353430;
   --button-hover: rgba(50, 49, 45, 0.40);
-  --text-shadow: 2.5px 2px 0 var(--accent-color);
 
 }
 
@@ -37,7 +36,6 @@
     --accent-color: #FF8DCB;
     --text-color: #353430;
     --button-hover: rgba(50, 49, 45, 0.40);
-    --text-shadow: 2.5px 2px 0 var(--accent-color);
     }
 
   .page.theme_auto .header__rec {
